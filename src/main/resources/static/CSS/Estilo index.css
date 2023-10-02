@@ -1,0 +1,241 @@
+header{
+    background-color: #D8C588;
+    height: 80px;
+    width: 100%;
+
+}
+
+.logo{
+    font-family: Impact;
+    font-size: 50px;
+    font-weight: normal;
+    padding: 0 auto;
+    line-height: 90px;
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+   
+
+}
+
+.comprar{
+    text-decoration: none;
+    color: coral;
+}
+
+aside {
+    background-color: #3F3D41;
+    top: 80px;
+    left: 0;
+    bottom: 20px;
+    width: 10%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 90px;
+}
+
+.nav-menu-link{
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+
+.nav-menu-link:hover{
+
+    background-color: #F3EFED;
+    transition: 0.5s;
+    color: #3F3D41;
+
+}
+
+.titulo{
+    text-align:left;
+    margin: 0;
+}
+
+section {
+    position: fixed;
+    overflow-x: scroll;
+    top: 80px;
+    left: 12%;
+    bottom: 40px;
+    width: 88%;
+    
+
+}
+.productos {
+    display: flex;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    line-height: 10px;
+}
+
+.audio-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 100px;
+    width: 30%;
+    background-color: #D8C588;
+    padding: 10px;
+    border-radius: 40px 0;
+}
+
+.video-div{
+    display: flex;
+    height: 350px;
+    width: 600px;
+    background-color: #D8C588;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 40px 0;
+}
+
+.iframe-web-div{
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    background-color: #D8C588;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 40px 0;
+    justify-content: center;
+}
+
+.iframe-yt-div{
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    background-color: #D8C588;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 40px 0;
+    justify-content: center;
+    
+}
+
+.master{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.left,
+.right {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width:50%; 
+    
+    
+}
+
+.top {
+    height: 100px;
+    width: auto;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.formulario{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    
+    
+}
+
+.formulario h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #C4B17D;
+    font-family: 'calibri';
+    font-size: 10px;
+    color: white;
+}
+.formulario p{
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 40px;
+    
+}
+
+.formulario a {
+    color: white;
+    text-decoration: none;
+}
+.formulario a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.formulario .boton{
+    width: 100%;
+    background: #D8C588;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+.formulario .boton:hover {
+    background: #c4b17d; 
+}
